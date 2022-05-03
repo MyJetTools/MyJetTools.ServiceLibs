@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="prometheus-net" Version="6.0.0" />
+        <PackageReference Include="protobuf-net.Grpc" Version="1.0.152" />
+        <PackageReference Include="OpenTelemetry" Version="1.2.0" />
+        <PackageReference Include="Grpc.AspNetCore" Version="2.45.0" />
+        <PackageReference Include="OpenTelemetry.Contrib.Instrumentation.EntityFrameworkCore" Version="1.0.0-beta2" />
+        <PackageReference Include="OpenTelemetry.Exporter.Zipkin" Version="1.2.0" />
+        <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.0.0-rc3" />
+        <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.0.0-rc3" />
+        <PackageReference Include="OpenTelemetry.Instrumentation.GrpcNetClient" Version="1.0.0-rc3" />
+        <PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.0.0-rc3" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+        <PackageReference Include="JetBrains.Annotations" Version="2022.1.0" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+</Project>
